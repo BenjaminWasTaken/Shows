@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add a Show</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Add a Show</h1>
+    <form>
+      <label for="show-name">Name:</label>
+      <input type="text" id="show-name" name="show-name" /><br /><br />
+      <label for="show-theme">Theme:</label>
+      <select id="show-theme" name="show-theme">
+        <option value="Action">Action</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Drama">Drama</option>
+        <option value="Romance">Romance</option>
+        <option value="Science Fiction">Science Fiction</option></select
+      ><br /><br />
+      <input type="submit" value="Add Show" />
+    </form>
+
+    <h2>Shows</h2>
+    <ul id="show-list"></ul>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
